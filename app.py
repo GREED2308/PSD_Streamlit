@@ -626,7 +626,7 @@ with tab_method:
 
 with st.sidebar:
     st.markdown("---")
-    st.caption("Dashboard lokal • PSD UTS • Dataset/hasil tetap berada di folder proyek")
+    st.caption("Dashboard SIG UTS • Data dan hasil yang disertakan dalam paket deployment • Cakupan raster: AOI pesisir 40 × 40 km")
 
 choose_path_message([COMPOSITE_CSV, DATASETS["Semua sampel (303)"], DATASETS["Tersaring kualitas (255)"],
                      SAMPLE_GEOJSON])
